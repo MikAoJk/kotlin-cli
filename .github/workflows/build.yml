@@ -3,7 +3,7 @@ on: [push, pull_request]
 
 jobs:
   build:
-    name: Checkout code and test, clean build
+    name: Checkout code and clean build
     runs-on: ubuntu-latest
     steps:
       - name: Setup java
